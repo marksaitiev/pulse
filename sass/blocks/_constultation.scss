@@ -1,0 +1,11 @@
+.constultation {
+    padding: 100px 0px 92px 0px;
+    height: 680px;
+    background:url('../img/constultation.jpg')center (center/cover) no-repeat;
+    &__descr {
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

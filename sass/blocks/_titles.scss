@@ -1,0 +1,18 @@
+//тайтл подключает заголовки от _reasons.scss и _constultation.scss
+.title {
+    display: block;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #0D0D0D;
+    margin: 0 auto;
+    text-transform: uppercase;
+    &_left {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #FFFFFF;
+        text-align: left;
+    }
+}

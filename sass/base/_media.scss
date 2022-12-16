@@ -1,0 +1,18 @@
+@media(max-width: 1200px){}
+@media(max-width: 991px){}
+@media(max-width: 767px){}
+@media(max-width: 575px){}
+@media(min-width: 320px) and (max-width: 425px){
+    .promo {
+        .promo__icon {
+            margin-left: 10px;
+            margin-right: 10px;
+    }
+        .header__official {
+            display: none
+        }
+        .header__phone {
+            font-size: 15px;
+        }
+    }
+}

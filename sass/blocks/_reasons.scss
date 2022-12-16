@@ -1,4 +1,68 @@
 .reasons {
-    height: 473px;
-}
+	margin-top: none;
+	height: 560px;
+	background-color: #F6F6F6;
+	.block {
+		padding: 73px 0 65px 0;
+		margin: 0 auto; 
+		// margin-top: 73px;
+		// background-color: yellow;
+	}
+	// &__title {
+	// 	display: block;
+	// 	font-weight: 700;
+	// 	font-size: 30px;
+	// 	line-height: 30px;
+	// 	text-align: center;
+	// 	color: #0D0D0D;
+	// 	margin: 0 auto;
+	// }
+	
+	&__wrapper {
+		padding: 50px 0 0 0;
+		height: 320px;
+		margin-top: 60px;
+		display: flex;
+		color: #0D0D0D;
+		padding-left: 50px;
+		justify-content: space-around;
+		// background-color: rebeccapurple;
+	}
+	&__item__icon {
+		margin: 0 auto;
+		height: 70px;
+		width: 70px;
+			// background-image: url('../../logo/cup.png');
+	}
+	.first {
+		background-image: url('../logo/cup.png');
+	}
+	.second {
+		background-image: url('../logo/heart.png');
+	}
+	.third {
+		background-image: url('../logo/shoe.png');
+	}
 
+	&__item__title {
+		margin-top: 35px;
+		font-weight: 700;
+		text-align: center;
+		font-size: 18px;
+		line-height: 29px;
+	}
+	&__item__descr {
+		color: #0D0D0D;
+		line-height: 18px;
+		font-weight: 300;
+		font-size: 14px;
+		height: 91px;
+		margin-top: 20px;
+		width: 269px;
+		text-align: center;
+		span {
+			color:#FF0000;
+		}
+	}
+	
+}
